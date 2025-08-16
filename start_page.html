@@ -66,6 +66,18 @@
       aside a:hover {
         color: rgb(38,139,210);
       }
+      .content-wrapper {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+      }
+      article{
+        flex: 3;
+      }
+      aside{
+        flex: 1;
+        margin-left: 20px;
+      }
     </style>
 
   </head>
@@ -93,8 +105,8 @@
        </form>
      </nav>
 
-    <!-- This will wrap the main content and the aside in one container -->
-     <div class="content-wrapper">
+    <!-- This will wrap the main content and the aside section into one container -->
+    <div class="content-wrapper">
      <!-- Here is our page's main content -->
     <main>
 
@@ -123,6 +135,7 @@
         <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
         </section>
       </article>
+    </main>
 
       <!-- the aside content can also be nested within the main content -->
       <aside>
@@ -137,7 +150,6 @@
         </ul>
       </aside>
 
-    </main>
     </div>
     <!-- And here is our main footer that is used across all the pages of our website -->
 
