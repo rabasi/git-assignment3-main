@@ -45,6 +45,9 @@
         justify-content: center;
         gap: 20px;
       }
+      article h2, article h3 {
+        padding-top: 50px;
+      }
       article a{
         color: rgb(211, 54, 130);
       }
@@ -90,16 +93,19 @@
        </form>
      </nav>
 
-    <!-- Here is our page's main content -->
+    <!-- This will wrap the main content and the aside in one container -->
+     <div class="content-wrapper">
+     <!-- Here is our page's main content -->
     <main>
 
       <!-- It contains an article -->
+
       <article>
         <h2>Article heading</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. For more info, visit: <a href="#">Info Corner</a>  </p>
 
-        <!-- Subsection class created for styling-->
+        <!-- Subsection class created for styling -->
 
         <section class="subsection">
         <h3>Subsection</h3>
@@ -132,7 +138,7 @@
       </aside>
 
     </main>
-
+    </div>
     <!-- And here is our main footer that is used across all the pages of our website -->
 
     <footer>
